@@ -3,6 +3,10 @@ const button = document.querySelector("#button_1");
 
 button.addEventListener("click", reverseWord);
 
+function myFunction(string) {
+    return string.split("").reverse().join("").split(" ").reverse().join(" ")
+};
+
 function reverseWord() {
     let text = input.value.split(' ');
     
