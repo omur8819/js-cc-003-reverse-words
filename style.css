@@ -3,73 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    margin: 80px;
-    color: rgb(48, 45, 40);
-    border: 3px solid  rgb(48, 45, 40);
-    border-radius: 15px;
-    font-size: 80px;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-#text_input{
-    display: block;
-    height: 50px;
-    border-radius: 15px;
-    padding: 0 40px;
-    font-size: 25px;
-    background-color: wheat;
-    width: 300px;
+body { 
+    background: url("images/images.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
-    margin-bottom: 30px;
 }
-#button_1{
-    display: block;
-    height: 50px;
-    border-radius: 15px;
-    font-size: 25px;
-    background-color: wheat;
-    width: 300px;
-    margin-bottom: 40px;
+h1{
+    padding: 20px;
+    color: white;
+    font-size: bold;
+    font-family: 'Sansita Swashed', cursive;
 }
-#div_2{
-    font-size: 30px;
-    margin: 10px;
+#firstClause ,#turnerButton{
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+#firstClause {
+    width: 270px;
+    margin-bottom: 10px;
+}
+#reversedWords{
+    font-size: 1.5rem;
     padding: 10px;
     font-weight: bold;
-    
+    font-family: 'Sansita Swashed', cursive;
 }
-p{
-    color: rgb(48, 45, 40);
+p {
+    margin-top: 10px;
+    margin-bottom:40px;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 10px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
-#reversed_text{
-    text-align: center;
-    margin-top: 30px;
-    border: 3px solid  rgb(48, 45, 40);
+.cardStyle {
+    margin: auto auto;
+    background-color: #53BF69;
+    font-family: 'Sansita Swashed', cursive;
 }
-
-
-
-
-
-
-
-
- 
-
-
-
 
