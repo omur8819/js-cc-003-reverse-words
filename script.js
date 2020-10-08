@@ -1,19 +1,19 @@
-const firstClause = document.querySelector("#firstClause");
+const firstSentence = document.querySelector("#firstSentence");
 const turnerButton = document.querySelector("#turnerButton");
-const reverseClause = document.querySelector("#reverseClause");
+const reverseSentence = document.querySelector("#reverseSentence");
 turnerButton.addEventListener("click", reverseWord);
-firstClause.addEventListener("keyup", enter);
+firstSentence.addEventListener("keyup", enter);
 function enter(event) {
   if (event.keyCode===13){
     turnerButton.click(reverseWord)
   }
 };
 function reverseWord() {
-  if (firstClause.value === "") {
+  if (firstSentence.value === "") {
     alert("Please enter a sentence");
   }
-  const reverse = firstClause.value.split(" ").reverse().join(" ");
-  reverseClause.innerHTML = reverse;
-  firstClause.focus();
-  firstClause.value = "";
+  const reverse = firstSentence.value.split(" ").reverse().join(" ");
+  reverseSentence.innerHTML = reverse;
+  firstSentence.focus();
+  firstSentence.value = "";
 }
