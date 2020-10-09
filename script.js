@@ -1,6 +1,7 @@
 const firstSentence = document.querySelector("#firstSentence");
 const button_1 = document.querySelector("#button_1");
 const reverseSentence = document.querySelector("#reverseSentence");
+
 button_1.addEventListener("click", reverseWord);
 firstSentence.addEventListener("keyup", enter);
 
